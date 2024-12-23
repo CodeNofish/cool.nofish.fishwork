@@ -1,0 +1,15 @@
+{
+  "name": "Fishwork.Serialize",
+  "rootNamespace": "Fishwork.Serialize",
+  "references": [
+    "Fishwork.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Fishwork.Core",
+  "rootNamespace": "Fishwork.Core",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}
