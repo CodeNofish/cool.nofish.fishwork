@@ -1,10 +1,14 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 
 namespace Fishwork.Core {
 
+  /// <summary>
+  /// 数组相关工具
+  /// </summary>
   public static class ArrayUtil {
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 复制子序列，返回新数组
+    /// </summary>
     public static T[] Copy<T>(T[] array, int start, int length) {
       if (start + length > array.Length)
         length = array.Length - start;
@@ -13,7 +17,9 @@ namespace Fishwork.Core {
       return newArray;
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 插入元素，返回新数组
+    /// </summary>
     public static T[] InsertAt<T>(T[] array, int position, T item) {
       T[] newArray = new T[array.Length + 1];
       if (position > 0)
@@ -24,7 +30,9 @@ namespace Fishwork.Core {
       return newArray;
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 插入多个元素，返回新数组
+    /// </summary>
     public static T[] InsertAt<T>(T[] array, int position, T[] items) {
       T[] newArray = new T[array.Length + items.Length];
       if (position > 0)
@@ -35,17 +43,23 @@ namespace Fishwork.Core {
       return newArray;
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 追加元素，返回新数组
+    /// </summary>
     public static T[] Append<T>(T[] array, T item) {
       return InsertAt(array, array.Length, item);
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 追加多个元素，返回新数组
+    /// </summary>
     public static T[] Append<T>(T[] array, T[] items) {
       return InsertAt(array, array.Length, items);
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 移除元素，返回新数组
+    /// </summary>
     public static T[] RemoveAt<T>(T[] array, int position, int length = 1) {
       if (position + length > array.Length)
         length = array.Length - position;
@@ -57,7 +71,9 @@ namespace Fishwork.Core {
       return newArray;
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 替换元素，返回新数组
+    /// </summary>
     public static T[] ReplaceAt<T>(T[] array, int position, T item) {
       T[] newArray = new T[array.Length];
       Array.Copy(array, newArray, array.Length);
@@ -65,50 +81,27 @@ namespace Fishwork.Core {
       return newArray;
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 替换多个元素，返回新数组
+    /// </summary>
     public static T[] ReplaceAt<T>(T[] array, int position, int length, T[] items) {
       return InsertAt(RemoveAt(array, position, length), position, items);
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 逆向排序元素，返回原数组
+    /// </summary>
     public static void Reverse<T>(T[] array) {
       Reverse(array, 0, array.Length);
     }
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 逆向排序元素，返回原数组
+    /// </summary>
     public static void Reverse<T>(T[] array, int start, int count) {
       int end = start + count - 1;
       for (int i = start, j = end; i < j; i++, j--)
         (array[i], array[j]) = (array[j], array[i]);
-    }
-
-    public static int BinarySearch(int[] array, int value) {
-      var low = 0;
-      var high = array.Length - 1;
-      while (low <= high) {
-        var middle = low + ((high - low) >> 1);
-        var midValue = array[middle];
-        if (midValue == value)
-          return middle;
-        if (midValue > value)
-          high = middle - 1;
-        else
-          low = middle + 1;
-      }
-      return ~low;
-    }
-
-    public static int BinarySearchUpperBound(int[] array, int value) {
-      int low = 0;
-      int high = array.Length - 1;
-      while (low <= high) {
-        int middle = low + ((high - low) >> 1);
-        if (array[middle] > value)
-          high = middle - 1;
-        else
-          low = middle + 1;
-      }
-      return low;
     }
   }
 

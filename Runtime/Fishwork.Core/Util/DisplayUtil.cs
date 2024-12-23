@@ -11,7 +11,6 @@ namespace Fishwork.Core {
     /// <summary>
     /// 获取显示器数量
     /// </summary>
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static int GetDisplayCount() {
       return Display.displays.Length;
     }
@@ -19,7 +18,6 @@ namespace Fishwork.Core {
     /// <summary>
     /// 获取指定显示器
     /// </summary>
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static Display GetDisplay(int index = 0) {
       index = Math.Clamp(index, 0, Display.displays.Length - 1);
       return Display.displays[index];
@@ -28,7 +26,6 @@ namespace Fishwork.Core {
     /// <summary>
     /// 激活指定显示器
     /// </summary>
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void Activate(int index = 0) {
       GetDisplay(index).Activate();
     }
@@ -36,7 +33,6 @@ namespace Fishwork.Core {
     /// <summary>
     /// 激活全部显示器
     /// </summary>
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void ActivateAll() {
       foreach (var display in Display.displays)
         display.Activate();

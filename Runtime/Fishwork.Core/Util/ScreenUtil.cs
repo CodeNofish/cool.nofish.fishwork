@@ -2,7 +2,10 @@
 using UnityEngine;
 
 namespace Fishwork.Core {
-  
+
+  /// <summary>
+  /// 屏幕分辨率相关工具
+  /// </summary>
   public static class ScreenUtil {
     /// <summary>
     /// 设置屏幕分辨率
@@ -31,7 +34,7 @@ namespace Fishwork.Core {
       Screen.autorotateToPortrait = false;
       Screen.autorotateToPortraitUpsideDown = false;
     }
-    
+
     /// <summary>
     /// 设置为自动旋转
     /// </summary>
@@ -64,5 +67,5 @@ namespace Fishwork.Core {
     _1024_768,
     _800_600,
   }
-  
+
 }
