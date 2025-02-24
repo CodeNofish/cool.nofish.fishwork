@@ -1,0 +1,6 @@
+﻿{
+  "name": "Fishwork.Log",
+  "references": [
+    "Fishwork.Core"
+  ]
+}

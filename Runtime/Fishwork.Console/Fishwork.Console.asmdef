@@ -1,0 +1,6 @@
+﻿{
+  "name": "Fishwork.Console",
+  "references": [
+    "Fishwork.Core"
+  ]
+}

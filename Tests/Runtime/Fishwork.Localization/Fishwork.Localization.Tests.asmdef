@@ -1,0 +1,13 @@
+﻿{
+  "name": "Fishwork.Localization.Tests",
+  "rootNamespace": "Fishwork.Localization.Tests",
+  "references": [
+    "Fishwork.Localization"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}
