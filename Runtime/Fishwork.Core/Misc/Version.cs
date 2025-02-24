@@ -58,26 +58,26 @@ namespace Fishwork.Core {
     }
 
     public static bool operator >(Version v1, Version v2) {
-      Guard.NotNull(v1, nameof(v1));
-      Guard.NotNull(v2, nameof(v2));
+      Guard.AgainstNull(v1, nameof(v1));
+      Guard.AgainstNull(v2, nameof(v2));
       return v1.CompareTo(v2) > 0;
     }
 
     public static bool operator <(Version v1, Version v2) {
-      Guard.NotNull(v1, nameof(v1));
-      Guard.NotNull(v2, nameof(v2));
+      Guard.AgainstNull(v1, nameof(v1));
+      Guard.AgainstNull(v2, nameof(v2));
       return v1.CompareTo(v2) < 0;
     }
 
     public static bool operator >=(Version v1, Version v2) {
-      Guard.NotNull(v1, nameof(v1));
-      Guard.NotNull(v2, nameof(v2));
+      Guard.AgainstNull(v1, nameof(v1));
+      Guard.AgainstNull(v2, nameof(v2));
       return v1.CompareTo(v2) >= 0;
     }
 
     public static bool operator <=(Version v1, Version v2) {
-      Guard.NotNull(v1, nameof(v1));
-      Guard.NotNull(v2, nameof(v2));
+      Guard.AgainstNull(v1, nameof(v1));
+      Guard.AgainstNull(v2, nameof(v2));
       return v1.CompareTo(v2) <= 0;
     }
   }

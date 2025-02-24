@@ -18,7 +18,7 @@ namespace Fishwork.Core {
     /// <returns>是否添加了元素</returns>
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static bool AddIfAbsent<T>(this ICollection<T> collection, T item) {
-      Guard.NotNull(collection, nameof(collection));
+      Guard.AgainstNull(collection, nameof(collection));
 
       if (collection.Contains(item))
         return false;
@@ -27,7 +27,7 @@ namespace Fishwork.Core {
     }
 
     public static void AddRange<T>(this ICollection<T> collection, IEnumerable<T> items) {
-      Guard.NotNull(collection, nameof(collection));
+      Guard.AgainstNull(collection, nameof(collection));
 
       foreach (var item in items)
         collection.Add(item);

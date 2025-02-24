@@ -27,14 +27,14 @@ namespace Fishwork.Core {
     }
 
     public static string JoinWith(this IEnumerable<string> sequence, string separator) {
-      Guard.NotNull(sequence, nameof(sequence));
-      Guard.NotNull(separator, nameof(separator));
+      Guard.AgainstNull(sequence, nameof(sequence));
+      Guard.AgainstNull(separator, nameof(separator));
 
       return string.Join(separator, sequence.ToArray());
     }
 
     public static IEnumerable<T> AppendItem<T>(this IEnumerable<T> sequence, T trailingItem) {
-      Guard.NotNull(sequence, nameof(sequence));
+      Guard.AgainstNull(sequence, nameof(sequence));
 
       foreach (var t in sequence)
         yield return t;
@@ -42,7 +42,7 @@ namespace Fishwork.Core {
     }
 
     public static IEnumerable<T> Prepend<T>(this IEnumerable<T> sequence, T leadingItem) {
-      Guard.NotNull(sequence, nameof(sequence));
+      Guard.AgainstNull(sequence, nameof(sequence));
 
       yield return leadingItem;
       foreach (var t in sequence)
