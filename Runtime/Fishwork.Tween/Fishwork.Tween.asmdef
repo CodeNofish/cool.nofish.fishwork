@@ -1,0 +1,7 @@
+﻿{
+  "name": "Fishwork.Tween",
+  "rootNamespace": "Fishwork.Tween",
+  "references": [
+    "Fishwork.Core"
+  ]
+}

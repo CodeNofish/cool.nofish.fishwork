@@ -1,0 +1,6 @@
+﻿{
+  "name": "Fishwork.Inspector",
+  "references": [
+    "Fishwork.Core"
+  ]
+}

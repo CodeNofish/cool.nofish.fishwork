@@ -2,7 +2,8 @@
   "name": "Fishwork.Core.Tests",
   "rootNamespace": "Fishwork.Core.Tests",
   "references": [
-    "Fishwork.Core"
+    "Fishwork.Core",
+    "Fishwork.Script"
   ],
   "optionalUnityReferences": [
     "TestAssemblies"

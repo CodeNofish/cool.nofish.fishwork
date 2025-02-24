@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 
 namespace Fishwork.Core {
-  
+
   public static class CollectionExtension {
     /// <summary>
     /// 集合是否为空
@@ -18,10 +18,19 @@ namespace Fishwork.Core {
     /// <returns>是否添加了元素</returns>
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static bool AddIfAbsent<T>(this ICollection<T> collection, T item) {
+      Guard.NotNull(collection, nameof(collection));
+
       if (collection.Contains(item))
         return false;
       collection.Add(item);
       return true;
+    }
+
+    public static void AddRange<T>(this ICollection<T> collection, IEnumerable<T> items) {
+      Guard.NotNull(collection, nameof(collection));
+
+      foreach (var item in items)
+        collection.Add(item);
     }
   }
 

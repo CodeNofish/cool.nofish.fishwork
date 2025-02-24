@@ -133,7 +133,7 @@ namespace Fishwork.Core {
     /// </summary>
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void* ExpandZeroed(void* buffer, int currentSize, int newSize) {
-      AssertUtil.Assert(newSize > currentSize, "扩展内存时，新内存大小必须大于原始大小");
+      Guard.Condition(newSize > currentSize, "扩展内存时，新内存大小必须大于原始大小", nameof(newSize));
       var newBuffer = MallocAndZero(newSize);
       MemCpy(newBuffer, buffer, currentSize);
       Free(buffer);

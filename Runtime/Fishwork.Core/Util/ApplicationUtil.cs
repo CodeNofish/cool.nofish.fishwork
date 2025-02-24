@@ -1,10 +1,11 @@
-﻿using System.Runtime.CompilerServices;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Fishwork.Core {
 
   public static class ApplicationUtil {
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    /// <summary>
+    /// 设置帧率
+    /// </summary>
     public static void SetFrameRate(int frameRate) {
       Application.targetFrameRate = frameRate;
     }

@@ -1,0 +1,7 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+  <ui:VisualElement class="horizontal-group">
+    <ui:Label name="label" class="label" />
+    <ui:FloatField name="floatField" class="float-field" />
+    <ui:Slider name="slider" class="slider" />
+  </ui:VisualElement>
+</ui:UXML>
