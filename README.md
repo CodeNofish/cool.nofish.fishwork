@@ -60,7 +60,7 @@ Unity Version Compatibility
 
 ## Roadmap
 
-View the full roadmap. See [Roadmap](https://github.com/storybookjs/storybook/blob/main/DevDocument~/Roadmap.md). 
+View the full roadmap. See [Roadmap](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/DevDocument~/Roadmap.md). 
 
 ## Contributing
 
@@ -68,9 +68,9 @@ Not ready.
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/storybookjs/storybook/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/LICENSE) for more information.
 
-Third-party notices see [THIRD PARTY NOTICES](https://github.com/storybookjs/storybook/blob/main/THIRD_PARTY_NOTICES) for more information.
+Third-party notices see [THIRD PARTY NOTICES](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/THIRD%20PARTY%20NOTICES.md) for more information.
 
 ## FAQ
 
