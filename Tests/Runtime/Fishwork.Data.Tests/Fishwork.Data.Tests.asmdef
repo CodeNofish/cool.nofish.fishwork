@@ -1,0 +1,13 @@
+﻿{
+  "name": "Fishwork.Data.Tests",
+  "rootNamespace": "Fishwork.Data.Tests",
+  "references": [
+    "Fishwork.Data"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

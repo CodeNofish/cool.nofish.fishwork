@@ -1,0 +1,12 @@
+﻿{
+  "name": "Fishwork.Demo.BasicUsage",
+  "rootNamespace": "Fishwork.BasicUsage",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

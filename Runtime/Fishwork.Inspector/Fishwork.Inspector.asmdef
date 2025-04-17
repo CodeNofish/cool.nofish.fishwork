@@ -1,0 +1,12 @@
+﻿{
+  "name": "Fishwork.Inspector",
+  "rootNamespace": "Fishwork.Inspector",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

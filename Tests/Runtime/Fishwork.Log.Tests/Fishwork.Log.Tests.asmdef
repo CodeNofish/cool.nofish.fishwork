@@ -1,0 +1,13 @@
+﻿{
+  "name": "Fishwork.Log.Tests",
+  "rootNamespace": "Fishwork.Log.Tests",
+  "references": [
+    "Fishwork.Log"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

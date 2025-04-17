@@ -1,0 +1,12 @@
+﻿{
+  "name": "Fishwork.Script",
+  "rootNamespace": "Fishwork.Script",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

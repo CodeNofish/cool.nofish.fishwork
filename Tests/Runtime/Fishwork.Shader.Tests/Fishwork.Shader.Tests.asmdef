@@ -1,0 +1,13 @@
+﻿{
+  "name": "Fishwork.Shader.Tests",
+  "rootNamespace": "Fishwork.Shader.Tests",
+  "references": [
+    "Fishwork.Shader"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

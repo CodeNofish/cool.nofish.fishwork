@@ -1,0 +1,12 @@
+﻿{
+  "name": "Fishwork.Log",
+  "rootNamespace": "Fishwork.Log",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

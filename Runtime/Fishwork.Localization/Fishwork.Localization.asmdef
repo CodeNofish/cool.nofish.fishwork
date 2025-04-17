@@ -1,0 +1,12 @@
+﻿{
+  "name": "Fishwork.Localization",
+  "rootNamespace": "Fishwork.Localization",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

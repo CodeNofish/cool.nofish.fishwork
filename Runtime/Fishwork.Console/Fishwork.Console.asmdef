@@ -1,0 +1,12 @@
+﻿{
+  "name": "Fishwork.Console",
+  "rootNamespace": "Fishwork.Console",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

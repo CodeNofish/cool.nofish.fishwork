@@ -1,0 +1,13 @@
+﻿{
+  "name": "Fishwork.Serialize.Tests",
+  "rootNamespace": "Fishwork.Serialize.Tests",
+  "references": [
+    "Fishwork.Serialize"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "name": "Fishwork.Shader",
+  "rootNamespace": "Fishwork.Shader",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

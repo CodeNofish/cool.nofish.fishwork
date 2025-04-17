@@ -1,0 +1,12 @@
+﻿{
+  "name": "Fishwork.Data",
+  "rootNamespace": "Fishwork.Data",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}
