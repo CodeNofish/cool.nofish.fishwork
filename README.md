@@ -1,77 +1,63 @@
 # Fishwork
 
-Powerful development toolset for unity projects.
+功能全面的Unity开发工具集
 
-## Table of content
+## 🔍 项目描述
 
-<details>
-<summary>Expand contents</summary>
+Fishwork 是一个功能全面的Unity开发工具集，旨在为开发者提供高效、便捷的开发工具。
 
-- 🔍 [About](#about)
-- ✨ [Feature](#feature)
-- 🚀 [Quick start](#quick-start)
-  - [Install](#install)
-- 📚 [Document](#document)
-- ⚙️ [Configuration](#configuration)
-- 🙌 [Acknowledgments](#acknowledgments)
-- 🗺️ [Roadmap](#roadmap)
-- 🤝 [Contributing](#contributing)
-- 📜 [License](#license)
-- ❓ [FAQ](#faq)
+## ✨ 功能特性
 
-</details>
+### 测试工具
 
-## About
+* Fluent Assertions API：提供丰富可扩展的断言库
+* Mock
+* 性能测试
+* UI自动化测试
 
-**Fishwork** provides a comprehensive suite of Unity development tools designed to supercharge productivity for small-to-midsize teams.
+## 🚀 快速入门
 
-## Feature
+### 安装
 
-- **TestToolkit**: provides a full-featured testing solution including assertion, mock, benchmark and UI automation
+1. 获取 GitHub 仓库的 Git URL
 
-## Quick start
+   在 GitHub 仓库页面点击 "Code" → 复制 HTTPS 或 SSH URL
 
-### Install
+2. 在 Unity 中添加 Git URL
+   * 打开 Unity 项目，进入 **Window > Package Manager**
+   * 点击左上角的 **+** 按钮，选择 **Add package from git URL**
+   * 粘贴复制的 Git URL，点击 **Add**。
+     * 如果需要特定分支或版本，在 URL 后添加 `#分支名` 或 `#版本号`
 
-1. Copy the Git URL from the GitHub Repository.
+## 📚 文档
 
-   On the GitHub repository page, click "Code" → Copy the HTTPS or SSH URL
+查看 [Document]()
 
-2. Add the Git URL in Unity.
-   * Open your Unity project and go to **Window > Package Manager**.
-   * lick the **+** button in the top-left corner and select Add package from git URL.
-   * Paste the Git URL and click Add
-     * To target a specific branch or version, append `#branch` or `#version` to the URL
-
-## Document
-
-Explore the full documentation at: TODO
-
-## Configuration
+## ⚙️ 配置
 
 TODO
 
-## Acknowledgments
+## 🔧 版本兼容
 
-Unity Version Compatibility
+Unity 版本兼容性
 
 - Unity 2022 +
 - Tuanjie 1.5.0 +
 
-## Roadmap
+## 🗺️ 路线图
 
-View the full roadmap. See [Roadmap](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/DevDocument~/Roadmap.md). 
+完整路线图查看 [Roadmap](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/DevDocument~/Roadmap.md). 
 
-## Contributing
+## 🤝 贡献指南
 
-Not ready.
+TODO
 
-## License
+## 📜 许可证
 
-Distributed under the MIT License. See [LICENSE](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/LICENSE) for more information.
+本项目基于 [MIT](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/LICENSE) 发布
 
-Third-party notices see [THIRD PARTY NOTICES](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/THIRD%20PARTY%20NOTICES.md) for more information.
+第三方软件许可证查看 [THIRD PARTY NOTICES](https://github.com/CodeNofish/cool.nofish.fishwork/blob/main/THIRD%20PARTY%20NOTICES.md)
 
-## FAQ
+## ❓ 常见问题
 
 TODO
